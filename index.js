@@ -1,7 +1,9 @@
 // Your code here
 const Calculator = {
   add: (n, x) => {return n + x},
-  subtract: (a,b) => a-b
+  subtract: (a,b) => a-b,
+  multiply: (a,b) => a*b,
+  divide: (a,b) => a/b
 }
 
 const mondayWork = (activity = 'go to the office') => {
