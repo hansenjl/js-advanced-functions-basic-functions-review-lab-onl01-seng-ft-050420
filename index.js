@@ -18,6 +18,8 @@ function saturdayFun(activity = 'roller-skate'){
   return `This Saturday, I want to ${activity}!`
 }
 
-function wrapAdjective(){
-  
+function wrapAdjective(string = '*'){
+  return function(wish = 'special'){
+    return `You are ${string}${wish}${string}`
+  }
 }
