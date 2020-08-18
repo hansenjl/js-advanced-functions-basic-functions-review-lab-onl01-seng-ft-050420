@@ -11,7 +11,9 @@ const mondayWork = (activity = 'go to the office') => {
 }
 
 function actionApplyer(int, arr){
-  
+  arr.forEach((fn)=>{
+    return fn()
+  })
 }
 
 function saturdayFun(activity = 'roller-skate'){
