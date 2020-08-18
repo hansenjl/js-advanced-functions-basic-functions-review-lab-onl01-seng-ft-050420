@@ -11,9 +11,7 @@ const mondayWork = (activity = 'go to the office') => {
 }
 
 function actionApplyer(int, arr){
-  if (!arr){
-    return int
-  }
+  
   arr.forEach((fn)=>{
     return fn()
   })
