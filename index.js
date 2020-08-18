@@ -1,1 +1,21 @@
 // Your code here
+const Calculator = {
+  add: (n, x) => {return n + x},
+  subtract: (a,b) => a-b
+}
+
+const mondayWork = (activity = 'go to the office') => {
+  return `This Monday, I will ${activity}.`
+}
+
+function actionApplyer(int, arr){
+  
+}
+
+function saturdayFun(activity = 'roller-skate'){
+  return `This Saturday, I want to ${activity}!`
+}
+
+function wrapAdjective(){
+  
+}
