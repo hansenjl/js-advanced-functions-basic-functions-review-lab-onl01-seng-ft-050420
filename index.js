@@ -20,6 +20,6 @@ function saturdayFun(activity = 'roller-skate'){
 
 function wrapAdjective(string = '*'){
   return function(wish = 'special'){
-    return `You are ${string}${wish}${string}`
+    return `You are ${string}${wish}${string}!`
   }
 }
