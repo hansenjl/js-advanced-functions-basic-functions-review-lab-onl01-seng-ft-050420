@@ -13,8 +13,9 @@ const mondayWork = (activity = 'go to the office') => {
 function actionApplyer(int, arr){
   
   arr.forEach((fn)=>{
-    return fn()
+    int = fn(int)
   })
+  return int
 }
 
 function saturdayFun(activity = 'roller-skate'){
